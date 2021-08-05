@@ -33,7 +33,7 @@ def start():
     arguments = []
     for i in sys.argv:
         if i != sys.argv[0] and i != sys.argv[1]:
-            arguments.append(pickle.loads(i))
+            arguments.append(pickle.loads(i.encode()))
     functions[func](*arguments)
 ```
 ## Functions

@@ -1,4 +1,5 @@
 # Crost Api
+Python: 3.7.9
 ## Example
 main.py
 ``` python
@@ -99,3 +100,7 @@ def command(cmd, args):
     cmd
     args
 ```
+## Build
+To use your mod, you first need to compile it.
+`pyinstaller C:\Program Files\Crost\mods\MODIFICATION_NAME\main.py`
+Next, you need to start the game and your modification will be launched in it.

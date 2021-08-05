@@ -34,7 +34,7 @@ def start():
     for i in sys.argv:
         if i != sys.argv[0] and i != sys.argv[1]:
             arguments.append(pickle.loads(i))
-    functions[func](**arguments)
+    functions[func](*arguments)
 ```
 ## Functions
 ### On start

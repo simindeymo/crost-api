@@ -12,6 +12,8 @@ api.add(start)
 def update(args):
     print('Updated!', len(players), 'players')
 api.add(update)
+
+api.start()
 ```
 api.py
 ``` python

@@ -33,3 +33,69 @@ def start():
             arguments.append(pickle.loads(i))
     functions[func](**arguments)
 ```
+## Functions
+### On start
+``` python
+def start(pygame):
+    pygame
+```
+### On update
+``` python
+def update(args):
+    args.pygame
+    args.window
+    args.scene
+    args.bots
+    args.players
+    args.player
+    args.chat
+```
+### On key pressed
+``` python
+def keyPressed(key):
+    key
+```
+### On mouse pressed
+``` python
+def mousePressed(side):
+    side
+```
+### On mouse move
+``` python
+def mouseMove(before, after):
+    before
+    after
+```
+### On mouse scroll
+``` python
+def mouseScroll(x):
+    x
+```
+### On transition
+``` python
+def transition(before, after):
+    before
+    after
+```
+### On player join
+``` python
+def playerJoin(player):
+    player
+```
+### On player disconnect
+``` python
+def playerDisconnect(player):
+    player
+```
+### On message
+``` python
+def message(player, msg):
+    player
+    msg
+```
+### On command
+``` python
+def command(cmd, args):
+    cmd
+    args
+```

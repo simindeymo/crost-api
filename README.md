@@ -103,6 +103,7 @@ def command(cmd, args):
 ## Build
 To use your mod, you first need to compile it.
 ```
-pyinstaller C:\Program Files\Crost\mods\MODIFICATION_NAME\main.py
+pip install pyinstaller
+python -m pyinstaller C:\Program Files\Crost\mods\MODIFICATION_NAME\main.py
 ```
 Next, you need to start the game and your modification will be launched in it.

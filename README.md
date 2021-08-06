@@ -19,8 +19,6 @@ api.py
 ``` python
 import sys
 import pickle
-import os
-import shutil
 
 functions = {}
 
